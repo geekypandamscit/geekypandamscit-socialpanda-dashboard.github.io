@@ -1,11 +1,11 @@
 import dash                              
 import dash_html_components as html
-import dash_core_components as dcc
-from dash.dependencies import Output, Input
-from dash_extensions import Lottie       
+#import dash_core_components as dcc
+#from dash.dependencies import Output, Input
+#from dash_extensions import Lottie
 import dash_bootstrap_components as dbc  
-import plotly.express as px              
-import pandas as pd
+#import plotly.express as px
+#import pandas as pd
 
 # Bootstrap themes by Ann: https://hellodash.pythonanywhere.com/theme_explorer
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUX])
