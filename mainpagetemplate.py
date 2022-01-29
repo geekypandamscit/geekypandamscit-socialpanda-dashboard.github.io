@@ -38,7 +38,7 @@ app.layout = dbc.Container([
             dbc.Card([
                 dbc.CardBody([
                     dbc.CardImg(src='/assets/twitter-logo1.gif'), # 150px by 45px
-                    dbc.CardLink("Twitter Scheduling", target="_blank",href="https://google.com")
+                    dbc.CardLink("Twitter Scheduling", target="_blank",href="https://twitter-scheduling.herokuapp.com/")
 
                 ], style={'textAlign':'center'})
             ]),
@@ -56,7 +56,7 @@ app.layout = dbc.Container([
             dbc.Card([
                 dbc.CardBody([
                     dbc.CardImg(src='/assets/twitter-logo.gif'), # 150px by 45px
-                    dbc.CardLink("Twitter Analytics", target="_blank",href="/pages/index.py")
+                    dbc.CardLink("Twitter Analytics", target="_blank",href="https://twitteranalytics-sp.herokuapp.com/")
                 ], style={'textAlign':'center'})
             ]),
         ], width=2),
