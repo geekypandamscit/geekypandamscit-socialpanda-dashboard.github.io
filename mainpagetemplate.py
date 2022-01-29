@@ -9,7 +9,7 @@ import dash_bootstrap_components as dbc
 
 # Bootstrap themes by Ann: https://hellodash.pythonanywhere.com/theme_explorer
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUX])
-server=app.server()
+server=app.server
 
 
 
